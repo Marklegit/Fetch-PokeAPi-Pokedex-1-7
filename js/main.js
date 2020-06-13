@@ -539,7 +539,7 @@ function createKalosPokemonCard(pokemon) {
 	//Creates Pokédex number
 	let infoNumber = document.createElement('span');
 	infoNumber.classList.add('number');
-	infoNumber.innerHTML = `#${pokemon.id.toString().padStart(3, '0')}`;
+	infoNumber.innerHTML = `${pokemon.id.toString().padStart(3, '0')}`;
 	
 	//Creates Pokémon name 
 	let infoName = document.createElement('h3');
@@ -628,7 +628,7 @@ function createAlolaPokemonCard(pokemon) {
 	//Creates Pokédex number
 	let infoNumber = document.createElement('span');
 	infoNumber.classList.add('number');
-	infoNumber.innerHTML = `#${pokemon.id.toString().padStart(3, '0')}`;
+	infoNumber.innerHTML = `${pokemon.id.toString().padStart(3, '0')}`;
 	
 	//Creates Pokémon name 
 	let infoName = document.createElement('h3');

@@ -333,7 +333,7 @@ function createSinnohPokemonCard(pokemon) {
 	//Creates Pokédex number
 	let infoNumber = document.createElement('span');
 	infoNumber.classList.add('number');
-	infoNumber.innerHTML = `#${pokemon.id.toString().padStart(3, '0')}`;
+	infoNumber.innerHTML = `${pokemon.id.toString().padStart(3, '0')}`;
 	
 	//Creates Pokémon name 
 	let infoName = document.createElement('h3');
@@ -434,7 +434,7 @@ function createUnovaPokemonCard(pokemon) {
 	//Creates Pokédex number
 	let infoNumber = document.createElement('span');
 	infoNumber.classList.add('number');
-	infoNumber.innerHTML = `#${pokemon.id.toString().padStart(3, '0')}`;
+	infoNumber.innerHTML = `${pokemon.id.toString().padStart(3, '0')}`;
 	
 	//Creates Pokémon name 
 	let infoName = document.createElement('h3');
@@ -724,7 +724,7 @@ const displayPopup = (pokemon) => {
         		</div>
 				<div class="pokemon-data-section-popup">
 					<h3>Pokédex Data</h3>
-            		<p>National Pokédex <span class="number">#${pokemon.id.toString().padStart(3, '0')}</span></p>
+            		<p>National Pokédex <span class="number">${pokemon.id.toString().padStart(3, '0')}</span></p>
             		<p class="pokemon-type">Type: <span>${poke_types}</span></p>
 					<p class="sprites">Sprites:</p>
 					<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" style="background-color: rgb(0, 0, 0, 0.1); width: 25%">

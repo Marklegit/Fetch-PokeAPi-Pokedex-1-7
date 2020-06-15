@@ -230,6 +230,9 @@ footer{
 	#pokemon-pokedex-region-container button{
 		width: 100px;
 	}
+	.pokedex-content{
+		max-width: 1200px;
+	}
 	.pokemon{
 		width: 200px;
 	}

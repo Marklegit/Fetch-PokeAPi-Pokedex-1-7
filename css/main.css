@@ -38,7 +38,7 @@ button{
 	background-color: white;
 }
 #pokemon-pokedex-region-container{
-	max-width: 600px;
+	width: 300px;
 	margin: auto;
 }
 #pokemon-pokedex-region-container button{

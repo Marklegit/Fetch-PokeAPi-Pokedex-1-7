@@ -30,7 +30,7 @@ button{
 	color: black;
 }
 #sticky-container{
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #ebebeb;
 	position: sticky;
 	top: 0;
 	z-index: 1;
@@ -229,6 +229,7 @@ footer{
 @media screen and (min-width: 1024px) {
 	#pokemon-pokedex-region-container button{
 		width: 100px;
+		padding: 10px 20px;
 	}
 	.pokedex-content{
 		max-width: 1200px;
@@ -280,6 +281,10 @@ footer{
 	.popup-info{
 		width: 60%;
 		margin: auto;
+	}
+	#pokemon-pokedex-region-container button{
+		width: 100px;
+		padding: 10px 20px;
 	}
 	.popup-info #artwork-container{
 		width: 80%;

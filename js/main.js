@@ -33,7 +33,7 @@ let kalosPokedexTotal = 721;
 let alolaPokedexTotal = 807;
 
 const colors = {
-	normal: '#F5F5F5',
+	normal: '#e3e3e3',
 	fire: '#ff6969',
 	water: '#73d5ff',
 	electric: '#f2ee66',

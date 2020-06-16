@@ -211,6 +211,9 @@ body .pokemon .number{
 .pokemon-base-stat-section-popup{
 	padding: 10px 0px 10px 0px;
 }
+.pokemon-data-section-popup .pokemon-type{
+	text-transform: capitalize;
+}
 .tab-content [data-tab-content]{
 	display: none!important;
 }
